@@ -23,7 +23,7 @@ function preload(){
 
   CrossHairImage = loadImage("./png/plain crosshair.png");
 
-  GunImage = loadImage("./png/AK-47.png");
+  GunImage = loadImage("./png/AK-47.png");    
 }
  
 function SpawnTerrorists(){
@@ -104,6 +104,7 @@ if (gameState ===1){
   
  if(keyDown("space")){
   spawnBullets();
+  
  }
 
   
